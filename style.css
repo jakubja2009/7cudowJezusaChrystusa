@@ -1,0 +1,274 @@
+@keyframes tytul
+{
+    0% { color: white; }
+    25% { color: gold; }
+    50% { color: chocolate; }
+    75% { color: gold; }
+    100% { color: white; }
+}
+.logo
+{
+    animation: tytul 4s infinite;
+    font-size: 200%;
+}
+header
+{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.menu a
+{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    animation: menu 4s infinite;
+    font-size: 75%;
+    color: lightgray;
+}
+@keyframes menu
+{
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+ul
+{
+    list-style-type: disc;
+}
+table
+{
+    width: 95vw;
+    height: 50vh;
+    border: black solid 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin-left: 2%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.pogrubienie
+{
+    font-weight: bold;
+}
+td
+{
+    border: black solid 3px;
+}
+.menu2
+{
+    float: right;
+    width: 19%;
+    background-color: #222;
+    text-align: center;
+    line-height: 20pt;
+    overflow: auto;
+    color: white;
+    border-radius: 20px;
+    margin-right: 1%;
+    margin-top: 3%;
+}
+.menu2 a
+{
+    text-decoration: none;
+    color: chocolate;
+}
+main
+{
+    float: left;
+    width: 80%;
+}
+.lewo
+{
+    margin-left: 20%;
+}
+article
+{
+    clear: both;
+}
+.naglowek 
+{
+    text-align: center;
+    font-size: 300%;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    line-height: 50pt;
+    border-width: 4pt;
+    font-style: italic;
+    color: chocolate;
+    border-color: black;
+}
+footer
+{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+.multimedia
+{
+    text-align: center;
+    font-style: italic;
+}
+.styl
+{
+    text-align: center;
+    font-style: italic;
+}
+.forms
+{
+    text-align: center;
+}
+span
+{
+    text-decoration: underline;
+}
+li
+{
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+/* TELEFON */
+@media (max-width: 600px) {
+    .menu, .menutablet, .menu2 { display: none; }
+    main {width: 100%;}
+}
+
+/* TABLET */
+@media (min-width: 601px) and (max-width: 1199px) {
+    .menu, .menutelefon { display: none; }
+    .logo { font-size: 100%;}
+}
+
+/* KOMPUTER */
+@media (min-width: 1200px) {
+    .menutablet, .menutelefon { display: none; }
+}
+.menutablet a
+{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    animation: menu 4s infinite;
+    font-size: 75%;
+    color: lightgray;
+}
+.menutablet1 
+{
+    float:left;
+}
+.menutablet2 
+{
+    float:right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.duzydiv
+{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.szerokosc
+{
+    width: 100%;
+}
