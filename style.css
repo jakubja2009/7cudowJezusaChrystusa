@@ -45,13 +45,11 @@ ul
 table
 {
     width: 95vw;
-    height: 50vh;
     border: black solid 3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 5px;
     margin-left: 2%;
-    table-layout: fixed;
     border-collapse: collapse;
 }
 .pogrubienie
@@ -273,3 +271,4 @@ img {
     width: 100%;
 
 }
+
