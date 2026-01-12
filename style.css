@@ -147,8 +147,7 @@ li
 @media (min-width: 601px) and (max-width: 1199px) {
     .menu, .menutelefon { display: none; }
     .logo { font-size: 100%;}
-}
-
+    .menu2 { float: left; }
 /* KOMPUTER */
 @media (min-width: 1200px) {
     .menutablet, .menutelefon { display: none; }
@@ -271,4 +270,5 @@ img {
     width: 100%;
 
 }
+
 
