@@ -62,7 +62,6 @@ td
 }
 .menu2
 {
-    float: right;
     width: 19%;
     background-color: #222;
     text-align: center;
@@ -148,6 +147,8 @@ li
     .menu, .menutelefon { display: none; }
     .logo { font-size: 100%;}
     .menu2 { float: left; }
+    main { float: right; }
+}
 /* KOMPUTER */
 @media (min-width: 1200px) {
     .menutablet, .menutelefon { display: none; }
@@ -270,5 +271,6 @@ img {
     width: 100%;
 
 }
+
 
 
